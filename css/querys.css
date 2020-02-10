@@ -1,0 +1,337 @@
+@media (min-width: 320px) {
+
+    @keyframes arrow {
+        from {
+            transform: translateY(0);
+        }
+        to{
+            transform: translateY(70px);
+        }
+    }
+    .menu{
+        display: none;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+
+    .hero__title--name {
+        font-size: 2rem;
+    }
+
+    .hero__title--profession {
+        font-size: 2.2rem;
+    }
+
+    .logo-hero {
+        width: 100px;
+        height: 100px;
+        animation-name: logo;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+    }
+
+    @keyframes logo {
+        from {
+            transform: translateY(-300px);
+        }
+        to{
+            transform: translateY(0);
+        }
+    }
+
+    .about {
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .about__me {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .about__content {
+        width: 100vw;
+        align-items: center;
+    }
+
+    .about_content--title {
+        font-size: 2rem;
+    }
+
+    .about_content--paragraph {
+        font-size: 1rem;
+    }
+
+    .tools {
+        height: 10vh;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .devicon {
+        width:  25px;
+        height: 25px;
+    }
+
+    .portfolio {
+        height: 100%;
+    }
+
+    .portfolio__title,
+    .testimonals__title,
+    .testimonals__title {
+        font-size: 2.2rem;
+    }
+
+    .testimonal {
+        width: 80%;
+    }
+
+    .testimonal__person {
+        display: none;
+    }
+
+    .comment {
+        font-size: 1rem;
+    }
+
+    .portfolio__quote {
+        font-size: 1.2rem;
+    }
+
+    .breakline {
+        border: 1px solid white;
+        width: 150px;
+    }
+
+    .projects {
+        width: 90%;
+    }
+
+    .project {
+        width: 150px;
+        height: 150px;
+    }
+
+    .project__details > p {
+        display: none;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .contact__title {
+        font-size: 2.2rem;
+    }
+
+    .form {
+        width: 90%
+    }
+
+    .footer {
+        justify-content: space-evenly;
+    }
+
+    .social-media {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 640px) {
+    .hero__title--name {
+        font-size: 2.8rem;
+    }
+
+    .hero__title--profession {
+        font-size: 3rem;
+    }
+
+    .about__me {
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+    }
+
+    .about__content {
+        width: 90%;
+    }
+
+    .about_content--title,
+    .portfolio__title,
+    .testimonals__title{
+        font-size: 2.5rem;
+    }
+
+    .about_content--paragraph{
+        font-size: 1.2rem;
+    }
+
+    .devicon {
+        width:  40px;
+        height: 40px;
+    }
+
+
+    .footer {
+        justify-content: space-between;
+        padding: 0 25px;
+    }
+
+    .social-media {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media ( min-width: 768px) {
+
+    @keyframes arrow {
+        0% {
+            transform : translateY(0px)
+        }
+    
+        100% {
+            transform: translateY(-100px);
+        }
+    }
+    
+    .hero {
+        justify-content: space-between;
+    }
+
+    .logo-hero {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .about__content {
+        width: 50%;
+    }
+
+    .about_content--title,
+    .portfolio__title,
+    .testimonals__title {
+        font-size: 3rem;
+    }
+
+    .about_content--paragraph {
+        font-size: 1.1rem;
+    }
+
+    .devicon {
+        width:  55px;
+        height: 55px;
+    }
+
+    .project {
+        width: 200px;
+        height: 200px;
+    }
+
+    .testimonal {
+        width: 500px;
+    }
+
+    .testimonal__person {
+        display: flex;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+}
+
+@media ( min-width: 1024px ) {
+    .projects, .menu, .form {
+        width: 1024px;
+        max-width: 1024px;
+    }
+
+    .menu__logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .menu-item--option {
+        font-size: 1.5rem;
+    }
+
+    .hero__title--name {
+        font-size: 3.5rem;
+    }
+
+    .hero__title--profession {
+        font-size: 4rem;
+    }
+
+    .about__content {
+        width: 700px;
+    }
+
+    .about__me {
+        width: 350px;
+        height: 350px;
+    }
+
+    .tools {
+        margin: auto;
+    }
+
+    .devicon {
+        width:  65px;
+        height: 65px;
+    }
+
+    .about_content--title,
+    .portfolio__title,
+    .contact__title,
+    .testimonals__title{
+        font-size: 3.5rem;
+    }
+
+    .about_content--paragraph {
+        font-size: 1.5rem;
+    }
+    .about_content--button, .form__button{
+        font-size: 1.5;
+    }
+
+    .portfolio__quote {
+        font-size: 1.5rem;
+    }
+
+    .project{
+        width: 280px;
+        height: 280px;
+    }
+
+    .project__details > p {
+        display: block;
+    }
+
+    .form {
+        width: 700px;
+    }
+
+    .form__label, .form__input{
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        justify-content: space-around;
+        font-size: 1.5rem;
+    }
+} 
